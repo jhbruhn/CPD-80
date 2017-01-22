@@ -1163,7 +1163,6 @@ design rules under a new name.</description>
 <contactref element="SV2" pad="20"/>
 <contactref element="R1" pad="2"/>
 <contactref element="IC1" pad="25"/>
-<contactref element="IC1" pad="24"/>
 <contactref element="IC1" pad="16"/>
 <contactref element="IC1" pad="17"/>
 <contactref element="U$1" pad="28"/>
@@ -1181,7 +1180,6 @@ design rules under a new name.</description>
 <wire x1="-35.56" y1="22.86" x2="-55.88" y2="38.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-33.02" y1="22.86" x2="-35.56" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-25.4" y1="17.78" x2="-33.02" y2="22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.86" y1="17.78" x2="-25.4" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-25.4" y1="2.54" x2="-25.4" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-22.86" y1="2.54" x2="-25.4" y2="2.54" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.1" y1="2.54" x2="-25.4" y2="2.54" width="0" layer="19" extent="1-1"/>
@@ -1559,6 +1557,11 @@ design rules under a new name.</description>
 <contactref element="V3" pad="6"/>
 <contactref element="V2" pad="2"/>
 <wire x1="-38.1" y1="83.82" x2="-27.94" y2="83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="WAIT">
+<contactref element="IC1" pad="24"/>
+<contactref element="SV2" pad="27"/>
+<wire x1="-22.86" y1="17.78" x2="-30.48" y2="97.79" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

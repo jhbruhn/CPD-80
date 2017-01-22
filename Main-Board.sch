@@ -3121,14 +3121,8 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <pinref part="IC1" gate="1" pin="BUSRQ"/>
 <wire x1="-5.08" y1="45.72" x2="-25.4" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="45.72" x2="-25.4" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="WAIT"/>
 <wire x1="-25.4" y1="55.88" x2="-25.4" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="58.42" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="66.04" x2="-25.4" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="63.5" x2="-7.62" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="63.5" x2="-7.62" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="66.04" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
-<junction x="-25.4" y="66.04"/>
+<wire x1="-25.4" y1="58.42" x2="-25.4" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="1" pin="INT"/>
 <wire x1="-5.08" y1="58.42" x2="-25.4" y2="58.42" width="0.1524" layer="91"/>
 <junction x="-25.4" y="58.42"/>
@@ -3478,6 +3472,18 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <pinref part="V3" gate="/2" pin="Y"/>
 <pinref part="V2" gate="/1" pin="B"/>
 <wire x1="71.12" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="WAIT" class="0">
+<segment>
+<pinref part="IC1" gate="1" pin="WAIT"/>
+<wire x1="-5.08" y1="63.5" x2="-7.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="63.5" x2="-7.62" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-7.62" x2="317.5" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="-7.62" x2="317.5" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="SV2" gate="G$1" pin="27"/>
+<wire x1="317.5" y1="45.72" x2="322.58" y2="45.72" width="0.1524" layer="91"/>
+<label x="317.5" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
