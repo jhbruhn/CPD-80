@@ -18,3 +18,6 @@
 | ------------- | ------------- |
 | 0 | IDE Port (CF Card)  |
 | 1 | UART (16550)  |
+
+## Circuit Diagram
+![CPD](circuit.png)
