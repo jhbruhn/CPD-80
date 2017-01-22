@@ -1,6 +1,7 @@
 # Crazy Programmable Device (CPD)
 
 ##(Planned) Features
+* 6MHz Z80 Processor
 * UART Serial Communication
 * 32k RAM
 * 32k ROM
