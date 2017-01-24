@@ -1857,6 +1857,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <pinref part="JP1" gate="A" pin="!WR"/>
 <wire x1="-66.04" y1="172.72" x2="-50.8" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="172.72" x2="-50.8" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="177.8" x2="106.68" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="177.8" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
+<junction x="68.58" y="177.8"/>
+<pinref part="U$1" gate="G$1" pin="!WE"/>
+<wire x1="106.68" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!RD" class="0">
