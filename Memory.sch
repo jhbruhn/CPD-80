@@ -1358,14 +1358,14 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <attribute name="MPN" value="SN74HC00N"/>
 <attribute name="OC_FARNELL" value="9590889"/>
 </part>
-<part name="IC5" library="jean" deviceset="HM62256" device="DIP">
+<part name="IC2" library="jean" deviceset="HM62256" device="DIP">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="bt_memory" deviceset="AT28C256" device="ZIF"/>
+<part name="IC1" library="bt_memory" deviceset="AT28C256" device="ZIF"/>
 <part name="JP1" library="jean" deviceset="JEANNECTOR" device="/90"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
@@ -1379,7 +1379,7 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <instances>
 <instance part="P+3" gate="VCC" x="111.76" y="139.7"/>
 <instance part="GND3" gate="1" x="111.76" y="129.54"/>
-<instance part="IC5" gate="G$1" x="48.26" y="132.08">
+<instance part="IC2" gate="G$1" x="48.26" y="132.08">
 <attribute name="OC_FARNELL" x="48.26" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="48.26" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="48.26" y="132.08" size="1.778" layer="96" display="off"/>
@@ -1387,7 +1387,7 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <instance part="P+5" gate="VCC" x="63.5" y="114.3"/>
 <instance part="GND6" gate="1" x="33.02" y="109.22"/>
 <instance part="V2" gate="/1" x="73.66" y="187.96"/>
-<instance part="U$1" gate="G$1" x="129.54" y="114.3"/>
+<instance part="IC1" gate="G$1" x="129.54" y="114.3"/>
 <instance part="JP1" gate="A" x="-68.58" y="137.16" rot="R180"/>
 <instance part="V2" gate="/2" x="48.26" y="185.42"/>
 <instance part="V2" gate="/3" x="86.36" y="99.06"/>
@@ -1421,11 +1421,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <nets>
 <net name="A0" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A0"/>
+<pinref part="IC2" gate="G$1" pin="A0"/>
 <wire x1="35.56" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A0"/>
+<pinref part="IC1" gate="G$1" pin="A0"/>
 <wire x1="144.78" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1435,11 +1435,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A1" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A1"/>
+<pinref part="IC2" gate="G$1" pin="A1"/>
 <wire x1="35.56" y1="149.86" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A1"/>
+<pinref part="IC1" gate="G$1" pin="A1"/>
 <wire x1="144.78" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1449,11 +1449,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A2" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A2"/>
+<pinref part="IC2" gate="G$1" pin="A2"/>
 <wire x1="35.56" y1="147.32" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A2"/>
+<pinref part="IC1" gate="G$1" pin="A2"/>
 <wire x1="144.78" y1="129.54" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1463,11 +1463,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A3" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A3"/>
+<pinref part="IC2" gate="G$1" pin="A3"/>
 <wire x1="35.56" y1="144.78" x2="33.02" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A3"/>
+<pinref part="IC1" gate="G$1" pin="A3"/>
 <wire x1="144.78" y1="127" x2="149.86" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1477,11 +1477,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A4" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A4"/>
+<pinref part="IC2" gate="G$1" pin="A4"/>
 <wire x1="35.56" y1="142.24" x2="33.02" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A4"/>
+<pinref part="IC1" gate="G$1" pin="A4"/>
 <wire x1="144.78" y1="124.46" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1491,11 +1491,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A5" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A5"/>
+<pinref part="IC2" gate="G$1" pin="A5"/>
 <wire x1="35.56" y1="139.7" x2="33.02" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A5"/>
+<pinref part="IC1" gate="G$1" pin="A5"/>
 <wire x1="144.78" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1505,11 +1505,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A6" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A6"/>
+<pinref part="IC2" gate="G$1" pin="A6"/>
 <wire x1="35.56" y1="137.16" x2="33.02" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A6"/>
+<pinref part="IC1" gate="G$1" pin="A6"/>
 <wire x1="144.78" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1519,11 +1519,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A7" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A7"/>
+<pinref part="IC2" gate="G$1" pin="A7"/>
 <wire x1="35.56" y1="134.62" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A7"/>
+<pinref part="IC1" gate="G$1" pin="A7"/>
 <wire x1="144.78" y1="116.84" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1536,11 +1536,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <wire x1="68.58" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="A8"/>
+<pinref part="IC2" gate="G$1" pin="A8"/>
 <wire x1="35.56" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A8"/>
+<pinref part="IC1" gate="G$1" pin="A8"/>
 <wire x1="144.78" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1550,11 +1550,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A9" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A9"/>
+<pinref part="IC2" gate="G$1" pin="A9"/>
 <wire x1="35.56" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A9"/>
+<pinref part="IC1" gate="G$1" pin="A9"/>
 <wire x1="144.78" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1564,11 +1564,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A10" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A10"/>
+<pinref part="IC2" gate="G$1" pin="A10"/>
 <wire x1="35.56" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A10"/>
+<pinref part="IC1" gate="G$1" pin="A10"/>
 <wire x1="144.78" y1="109.22" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1578,11 +1578,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A11" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A11"/>
+<pinref part="IC2" gate="G$1" pin="A11"/>
 <wire x1="35.56" y1="124.46" x2="33.02" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A11"/>
+<pinref part="IC1" gate="G$1" pin="A11"/>
 <wire x1="144.78" y1="106.68" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1592,11 +1592,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A12" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A12"/>
+<pinref part="IC2" gate="G$1" pin="A12"/>
 <wire x1="35.56" y1="121.92" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A12"/>
+<pinref part="IC1" gate="G$1" pin="A12"/>
 <wire x1="144.78" y1="104.14" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1606,11 +1606,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A13" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A13"/>
+<pinref part="IC2" gate="G$1" pin="A13"/>
 <wire x1="35.56" y1="119.38" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A13"/>
+<pinref part="IC1" gate="G$1" pin="A13"/>
 <wire x1="144.78" y1="101.6" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1620,11 +1620,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="A14" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="A14"/>
+<pinref part="IC2" gate="G$1" pin="A14"/>
 <wire x1="35.56" y1="116.84" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A14"/>
+<pinref part="IC1" gate="G$1" pin="A14"/>
 <wire x1="144.78" y1="99.06" x2="149.86" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1662,11 +1662,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="D0" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="D0"/>
+<pinref part="IC2" gate="G$1" pin="D0"/>
 <wire x1="60.96" y1="134.62" x2="66.04" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="IO0"/>
+<pinref part="IC1" gate="G$1" pin="IO0"/>
 <wire x1="111.76" y1="127" x2="114.3" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1676,11 +1676,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="D1" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="D1"/>
+<pinref part="IC2" gate="G$1" pin="D1"/>
 <wire x1="60.96" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="IO1"/>
+<pinref part="IC1" gate="G$1" pin="IO1"/>
 <wire x1="114.3" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1690,11 +1690,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="D2" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="D2"/>
+<pinref part="IC2" gate="G$1" pin="D2"/>
 <wire x1="60.96" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="IO2"/>
+<pinref part="IC1" gate="G$1" pin="IO2"/>
 <wire x1="114.3" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1704,11 +1704,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="D3" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="D3"/>
+<pinref part="IC2" gate="G$1" pin="D3"/>
 <wire x1="60.96" y1="127" x2="66.04" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="IO3"/>
+<pinref part="IC1" gate="G$1" pin="IO3"/>
 <wire x1="114.3" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1719,11 +1719,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="D4" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="D4"/>
+<pinref part="IC2" gate="G$1" pin="D4"/>
 <wire x1="60.96" y1="124.46" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="IO4"/>
+<pinref part="IC1" gate="G$1" pin="IO4"/>
 <wire x1="114.3" y1="116.84" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1733,11 +1733,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="D5" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="D5"/>
+<pinref part="IC2" gate="G$1" pin="D5"/>
 <wire x1="60.96" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="IO5"/>
+<pinref part="IC1" gate="G$1" pin="IO5"/>
 <wire x1="114.3" y1="114.3" x2="111.76" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1747,11 +1747,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="D6" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="D6"/>
+<pinref part="IC2" gate="G$1" pin="D6"/>
 <wire x1="60.96" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="IO6"/>
+<pinref part="IC1" gate="G$1" pin="IO6"/>
 <wire x1="114.3" y1="111.76" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1761,11 +1761,11 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="D7" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="D7"/>
+<pinref part="IC2" gate="G$1" pin="D7"/>
 <wire x1="60.96" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="IO7"/>
+<pinref part="IC1" gate="G$1" pin="IO7"/>
 <wire x1="114.3" y1="109.22" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1775,12 +1775,12 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="VCC"/>
+<pinref part="IC2" gate="G$1" pin="VCC"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
 <wire x1="60.96" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="IC1" gate="G$1" pin="VCC"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <wire x1="114.3" y1="134.62" x2="111.76" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="134.62" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
@@ -1797,12 +1797,12 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <net name="GND" class="0">
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="IC5" gate="G$1" pin="GND"/>
+<pinref part="IC2" gate="G$1" pin="GND"/>
 <wire x1="33.02" y1="111.76" x2="35.56" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="111.76" y1="132.08" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1841,7 +1841,7 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="!CE"/>
+<pinref part="IC2" gate="G$1" pin="!CE"/>
 <wire x1="86.36" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="V2" gate="/1" pin="Y"/>
 <wire x1="83.82" y1="187.96" x2="86.36" y2="187.96" width="0.1524" layer="91"/>
@@ -1851,7 +1851,7 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <net name="!WR" class="0">
 <segment>
 <wire x1="-50.8" y1="177.8" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="!WE"/>
+<pinref part="IC2" gate="G$1" pin="!WE"/>
 <wire x1="60.96" y1="149.86" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="149.86" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="!WR"/>
@@ -1860,7 +1860,7 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <wire x1="68.58" y1="177.8" x2="106.68" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="177.8" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
 <junction x="68.58" y="177.8"/>
-<pinref part="U$1" gate="G$1" pin="!WE"/>
+<pinref part="IC1" gate="G$1" pin="!WE"/>
 <wire x1="106.68" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1868,12 +1868,12 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <segment>
 <wire x1="104.14" y1="99.06" x2="104.14" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="175.26" x2="63.5" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="!RE"/>
+<pinref part="IC2" gate="G$1" pin="!RE"/>
 <wire x1="60.96" y1="152.4" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="152.4" x2="63.5" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="175.26" x2="63.5" y2="175.26" width="0.1524" layer="91"/>
 <junction x="63.5" y="175.26"/>
-<pinref part="U$1" gate="G$1" pin="!OE"/>
+<pinref part="IC1" gate="G$1" pin="!OE"/>
 <wire x1="104.14" y1="99.06" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
 <label x="106.68" y="172.72" size="1.778" layer="95"/>
 <label x="106.68" y="96.52" size="1.778" layer="95"/>
@@ -1884,7 +1884,7 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <segment>
 <wire x1="96.52" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="99.06" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="!CE"/>
+<pinref part="IC1" gate="G$1" pin="!CE"/>
 <wire x1="99.06" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="V2" gate="/3" pin="Y"/>
 </segment>

@@ -1631,24 +1631,15 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <pinref part="JP1" gate="A" pin="!BUSACK"/>
 <wire x1="96.52" y1="20.32" x2="104.14" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="20.32" x2="104.14" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="5.08" x2="-11.684" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-11.684" y1="5.08" x2="-11.684" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="1" pin="BUSAK"/>
-<wire x1="-10.16" y1="43.18" x2="-5.08" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-11.684" y1="43.18" x2="-5.08" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,213.36,27.94,IC3,VSS,GND,,,"/>
-<approved hash="104,1,33.02,180.34,V2/+UB,+UB,VCC,,,"/>
-<approved hash="104,1,63.5,175.26,V2/-UB,-UB,GND,,,"/>
-<approved hash="104,1,25.4,180.34,V3/+UB,+UB,VCC,,,"/>
-<approved hash="104,1,48.26,175.26,V3/-UB,-UB,GND,,,"/>
-<approved hash="114,1,314.96,88.646,V3,/4,A,,,"/>
-<approved hash="114,1,314.96,88.646,V3,/4,B,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
