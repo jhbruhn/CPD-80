@@ -1842,8 +1842,8 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <net name="N$9" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="!CE"/>
-<wire x1="86.36" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="V2" gate="/1" pin="Y"/>
+<wire x1="86.36" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="187.96" x2="86.36" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="187.96" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
 </segment>
@@ -1853,8 +1853,8 @@ Only Memory. Its 256K of memory is organized as 32,768 words by 8 bits. &lt;/p&g
 <wire x1="-50.8" y1="177.8" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="!WE"/>
 <wire x1="60.96" y1="149.86" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="149.86" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="!WR"/>
+<wire x1="68.58" y1="149.86" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="172.72" x2="-50.8" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="172.72" x2="-50.8" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="177.8" x2="106.68" y2="177.8" width="0.1524" layer="91"/>
