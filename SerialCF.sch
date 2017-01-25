@@ -7077,6 +7077,73 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="transistor">
+<description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TO92">
+<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
+<wire x1="-2.0946" y1="-1.651" x2="-2.6549" y2="-0.254" width="0.127" layer="21" curve="-32.781"/>
+<wire x1="-2.6549" y1="-0.254" x2="-0.7863" y2="2.5485" width="0.127" layer="21" curve="-78.3185"/>
+<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.127" layer="21" curve="-111.1"/>
+<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="-2.2537" y1="-0.254" x2="-0.2863" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="0.2863" y1="-0.254" x2="2.2537" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="-0.7863" y1="2.5485" x2="0.7863" y2="2.5485" width="0.127" layer="51" curve="-34.2936"/>
+<pad name="1" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
+<pad name="3" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="1.27" layer="51" ratio="10">2</text>
+<text x="-2.159" y="0" size="1.27" layer="51" ratio="10">3</text>
+<text x="1.143" y="0" size="1.27" layer="51" ratio="10">1</text>
+</package>
+</packages>
+<symbols>
+<symbol name="NPN">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BC547" prefix="T">
+<description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7120,6 +7187,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R2" library="resistor" deviceset="R-EU_" device="0204/7" value="560"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="V2" library="74ttl-din" deviceset="74*00" device="N" technology="HC"/>
+<part name="T1" library="transistor" deviceset="BC547" device=""/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="0207/2V" value="100k"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="0207/2V" value="3.3k"/>
+<part name="P+4" library="supply1" deviceset="VCC" device=""/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7168,6 +7240,11 @@ A6 = 0</text>
 <instance part="V2" gate="/2" x="119.38" y="63.5"/>
 <instance part="V2" gate="/3" x="276.86" y="71.12"/>
 <instance part="V2" gate="/4" x="297.18" y="73.66"/>
+<instance part="T1" gate="G$1" x="200.66" y="-66.04"/>
+<instance part="R3" gate="G$1" x="190.5" y="-66.04"/>
+<instance part="R4" gate="G$1" x="203.2" y="-55.88" rot="R90"/>
+<instance part="P+4" gate="VCC" x="203.2" y="-48.26"/>
+<instance part="GND4" gate="1" x="203.2" y="-73.66"/>
 </instances>
 <busses>
 <bus name="A[0..15]">
@@ -7446,6 +7523,10 @@ A6 = 0</text>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <wire x1="307.34" y1="-17.78" x2="307.34" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -7515,6 +7596,10 @@ A6 = 0</text>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="66.04" y1="-12.7" x2="58.42" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-12.7" x2="58.42" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="T1" gate="G$1" pin="E"/>
+<pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="!WR" class="0">
@@ -7815,6 +7900,37 @@ A6 = 0</text>
 <pinref part="V1" gate="/4" pin="Y"/>
 <wire x1="251.46" y1="96.52" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="96.52" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="-66.04" x2="195.58" y2="-66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="C"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="-60.96" x2="218.44" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="-60.96" x2="218.44" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="203.2" y="-60.96"/>
+<wire x1="218.44" y1="-83.82" x2="43.18" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-83.82" x2="43.18" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="!INT"/>
+<wire x1="43.18" y1="5.08" x2="66.04" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="-66.04" x2="180.34" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-66.04" x2="180.34" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-12.7" x2="190.5" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-12.7" x2="190.5" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="INT"/>
+<wire x1="190.5" y1="7.62" x2="182.88" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
