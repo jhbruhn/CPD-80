@@ -7730,7 +7730,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="OMRON ELECTRONIC COMPONENTS" x="25.273" y="6.096" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED1" library="led" package="LED5MM" value="BW" x="76.2" y="6.35" rot="R270"/>
-<element name="R1" library="resistor" package="0207/2V" value="" x="76.2" y="12.7" rot="R90"/>
+<element name="R1" library="resistor" package="0207/2V" value="560" x="76.2" y="12.7" rot="R90"/>
 <element name="U$1" library="bfl" package="OSHW1" value="" x="56.7436" y="7.874"/>
 </elements>
 <signals>
