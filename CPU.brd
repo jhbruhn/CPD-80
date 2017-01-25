@@ -123,7 +123,7 @@
 <wire x1="1.27" y1="33.96" x2="1.27" y2="0" width="0" layer="20"/>
 <wire x1="102.87" y1="0" x2="102.85" y2="0" width="0.0254" layer="20"/>
 <wire x1="102.85" y1="0" x2="1.27" y2="0" width="0.0254" layer="20"/>
-<text x="3.81" y="29.21" size="1.778" layer="21">CPD-80 CPU V1</text>
+<text x="3.81" y="29.21" size="1.778" layer="21" font="fixed">CPD-80 CPU v1</text>
 <rectangle x1="98.7933" y1="26.7335" x2="99.1235" y2="26.7589" layer="21"/>
 <rectangle x1="98.5901" y1="26.7589" x2="99.1997" y2="26.7843" layer="21"/>
 <rectangle x1="98.3869" y1="26.7843" x2="99.2759" y2="26.8097" layer="21"/>

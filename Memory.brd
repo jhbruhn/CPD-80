@@ -122,7 +122,7 @@
 <wire x1="102.85" y1="0" x2="102.85" y2="37.77" width="0.254" layer="20"/>
 <wire x1="102.85" y1="37.77" x2="1.27" y2="37.77" width="0.254" layer="20"/>
 <wire x1="1.27" y1="37.77" x2="1.27" y2="0" width="0.254" layer="20"/>
-<text x="2.54" y="33.02" size="1.778" layer="21">CPD-80 Memory V1</text>
+<text x="2.54" y="33.02" size="1.778" layer="21" font="fixed">CPD-80 Memory v1</text>
 <rectangle x1="98.7933" y1="31.8135" x2="99.1235" y2="31.8389" layer="21"/>
 <rectangle x1="98.5901" y1="31.8389" x2="99.1997" y2="31.8643" layer="21"/>
 <rectangle x1="98.3869" y1="31.8643" x2="99.2759" y2="31.8897" layer="21"/>

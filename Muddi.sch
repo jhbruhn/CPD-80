@@ -6109,7 +6109,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="MF" value="OMRON ELECTRONIC COMPONENTS"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="5MM"/>
+<part name="LED1" library="led" deviceset="LED" device="5MM" value="BW"/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="0207/2V"/>
 </parts>
 <sheets>
