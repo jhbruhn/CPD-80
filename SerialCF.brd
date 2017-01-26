@@ -8128,6 +8128,33 @@ type 0207, grid 2.5 mm</description>
 </package>
 </packages>
 </library>
+<library name="capacitor-wima">
+<description>&lt;b&gt;WIMA Capacitors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="C5B2.5">
+<description>&lt;B&gt;MKS2&lt;/B&gt;, 7.5 x 2.5 mm, grid 5.08 mm</description>
+<wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
+<wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.635" width="0.3048" layer="21"/>
+<wire x1="-0.3048" y1="0" x2="-1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.3302" y1="0.635" x2="0.3302" y2="0" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0" x2="0.3302" y2="-0.635" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="-3.683" y1="1.016" x2="-3.683" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-1.27" x2="3.429" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.683" y1="-1.016" x2="3.683" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="1.27" x2="-3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="1.27" x2="3.683" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="3.429" y1="-1.27" x2="3.683" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.683" y1="-1.016" x2="-3.429" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.683" y1="1.016" x2="-3.429" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<text x="-2.032" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8355,6 +8382,10 @@ design rules under a new name.</description>
 <element name="T1" library="transistor" package="TO92" value="BC547" x="71.12" y="17.78"/>
 <element name="R3" library="resistor" package="0207/2V" value="100k" x="64.77" y="21.59"/>
 <element name="R4" library="resistor" package="0207/2V" value="3.3k" x="63.5" y="16.51"/>
+<element name="C1" library="capacitor-wima" package="C5B2.5" value="0.1µF" x="5.08" y="19.05" rot="R270"/>
+<element name="C2" library="capacitor-wima" package="C5B2.5" value="0.1µF" x="5.08" y="43.18" rot="R90"/>
+<element name="C3" library="capacitor-wima" package="C5B2.5" value="0.1µF" x="100.33" y="44.45" rot="R90"/>
+<element name="C4" library="capacitor-wima" package="C5B2.5" value="0.1µF" x="83.82" y="21.59"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -8421,6 +8452,31 @@ design rules under a new name.</description>
 <wire x1="64.9224" y1="16.4592" x2="64.77" y2="16.51" width="0.254" layer="16"/>
 <wire x1="65.8368" y1="11.6586" x2="65.8368" y2="11.684" width="0.254" layer="1"/>
 <via x="65.8368" y="13.0302" extent="1-16" drill="0.6096"/>
+<contactref element="C1" pad="1"/>
+<contactref element="C2" pad="1"/>
+<contactref element="C3" pad="1"/>
+<contactref element="C4" pad="1"/>
+<wire x1="5.0292" y1="40.4622" x2="5.0292" y2="21.717" width="0.254" layer="1"/>
+<wire x1="5.0292" y1="21.717" x2="5.08" y2="21.59" width="0.254" layer="1"/>
+<wire x1="5.0292" y1="40.4622" x2="5.08" y2="40.64" width="0.254" layer="1"/>
+<wire x1="76.3524" y1="21.717" x2="81.153" y2="21.717" width="0.254" layer="1"/>
+<wire x1="69.4944" y1="28.575" x2="76.3524" y2="21.717" width="0.254" layer="1"/>
+<wire x1="69.4944" y1="42.5196" x2="69.4944" y2="28.575" width="0.254" layer="1"/>
+<wire x1="69.9516" y1="42.9768" x2="69.4944" y2="42.5196" width="0.254" layer="1"/>
+<wire x1="69.9516" y1="44.577" x2="69.9516" y2="42.9768" width="0.254" layer="1"/>
+<wire x1="71.0946" y1="45.72" x2="69.9516" y2="44.577" width="0.254" layer="1"/>
+<wire x1="81.153" y1="21.717" x2="81.28" y2="21.59" width="0.254" layer="1"/>
+<wire x1="71.0946" y1="45.72" x2="71.12" y2="45.72" width="0.254" layer="1"/>
+<wire x1="100.1268" y1="43.6626" x2="100.1268" y2="42.0624" width="0.254" layer="1"/>
+<wire x1="96.9264" y1="46.863" x2="100.1268" y2="43.6626" width="0.254" layer="1"/>
+<wire x1="71.7804" y1="46.863" x2="96.9264" y2="46.863" width="0.254" layer="1"/>
+<wire x1="71.0946" y1="46.1772" x2="71.7804" y2="46.863" width="0.254" layer="1"/>
+<wire x1="100.1268" y1="42.0624" x2="100.33" y2="41.91" width="0.254" layer="1"/>
+<wire x1="71.0946" y1="46.1772" x2="71.12" y2="45.72" width="0.254" layer="1"/>
+<wire x1="5.2578" y1="42.0624" x2="5.2578" y2="40.6908" width="0.254" layer="1"/>
+<wire x1="7.5438" y1="44.3484" x2="5.2578" y2="42.0624" width="0.254" layer="1"/>
+<wire x1="5.2578" y1="40.6908" x2="5.08" y2="40.64" width="0.254" layer="1"/>
+<wire x1="7.5438" y1="44.3484" x2="7.62" y2="44.45" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="IC1" pad="20"/>
@@ -8451,6 +8507,10 @@ design rules under a new name.</description>
 <vertex x="104.14" y="49.53"/>
 </polygon>
 <contactref element="T1" pad="1"/>
+<contactref element="C1" pad="2"/>
+<contactref element="C2" pad="2"/>
+<contactref element="C3" pad="2"/>
+<contactref element="C4" pad="2"/>
 </signal>
 <signal name="A0">
 <contactref element="IC1" pad="28"/>
