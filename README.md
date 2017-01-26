@@ -14,10 +14,10 @@
 | 0x8000-0xFFFF | RAM  |
 
 ##IO
-| A7 | A6 |      Device         |
-| -- | -- | ------------------- |
-| 0  | 0  | IDE Port (CF Card)  |
-| 0  | 1  | UART (16550)        |
+| A7 | A6 | A5 |      Device         |
+| -- | -- | -- | ------------------- |
+| 0  | 0  | 0  | IDE Port (CF Card)  |
+| 0  | 0  | 1  | UART (16550)        |
 
 ## Boot:
 * start at 0x0000.
