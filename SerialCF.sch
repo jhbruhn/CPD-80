@@ -1525,96 +1525,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </library>
 <library name="jean">
 <packages>
-<package name="57102-F08-25">
-<description>&lt;b&gt;UNSH HEADER&lt;/b&gt; 2.0mm VERTICAL TMT&lt;p&gt;
-Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</description>
-<wire x1="-10" y1="2" x2="70.1263375" y2="1.966915625" width="0.2032" layer="21"/>
-<wire x1="70.1263375" y1="1.966915625" x2="70.1263375" y2="-2.033084375" width="0.2032" layer="21"/>
-<wire x1="70.1263375" y1="-2.033084375" x2="-10" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-10" y1="-2" x2="-10" y2="2" width="0.2032" layer="21"/>
-<pad name="1" x="-9" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="2" x="-9" y="1" drill="0.8" diameter="1.143"/>
-<pad name="3" x="-7" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="4" x="-7" y="1" drill="0.8" diameter="1.143"/>
-<pad name="5" x="-5" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="6" x="-5" y="1" drill="0.8" diameter="1.143"/>
-<pad name="7" x="-3" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="8" x="-3" y="1" drill="0.8" diameter="1.143"/>
-<pad name="9" x="-1" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="10" x="-1" y="1" drill="0.8" diameter="1.143"/>
-<pad name="11" x="1" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="12" x="1" y="1" drill="0.8" diameter="1.143"/>
-<pad name="13" x="3" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="14" x="3" y="1" drill="0.8" diameter="1.143"/>
-<pad name="15" x="5" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="16" x="5" y="1" drill="0.8" diameter="1.143"/>
-<pad name="17" x="7" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="18" x="7" y="1" drill="0.8" diameter="1.143"/>
-<pad name="19" x="9" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="20" x="9" y="1" drill="0.8" diameter="1.143"/>
-<pad name="21" x="11" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="22" x="11" y="1" drill="0.8" diameter="1.143"/>
-<pad name="23" x="13" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="24" x="13" y="1" drill="0.8" diameter="1.143"/>
-<pad name="25" x="15" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="26" x="15" y="1" drill="0.8" diameter="1.143"/>
-<pad name="27" x="17" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="28" x="17" y="1" drill="0.8" diameter="1.143"/>
-<pad name="29" x="19" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="30" x="19" y="1" drill="0.8" diameter="1.143"/>
-<pad name="31" x="21" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="32" x="21" y="1" drill="0.8" diameter="1.143"/>
-<pad name="33" x="23" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="34" x="23" y="1" drill="0.8" diameter="1.143"/>
-<pad name="35" x="25" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="36" x="25" y="1" drill="0.8" diameter="1.143"/>
-<pad name="37" x="27" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="38" x="27" y="1" drill="0.8" diameter="1.143"/>
-<pad name="39" x="29" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="40" x="29" y="1" drill="0.8" diameter="1.143"/>
-<pad name="41" x="31" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="42" x="31" y="1" drill="0.8" diameter="1.143"/>
-<pad name="43" x="33" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="44" x="33" y="1" drill="0.8" diameter="1.143"/>
-<pad name="45" x="35" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="46" x="35" y="1" drill="0.8" diameter="1.143"/>
-<pad name="47" x="37" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="48" x="37" y="1" drill="0.8" diameter="1.143"/>
-<pad name="49" x="39" y="-1" drill="0.8" diameter="1.143"/>
-<pad name="50" x="39" y="1" drill="0.8" diameter="1.143"/>
-<text x="-8.89" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-8.89" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="51" x="41.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="52" x="41.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="53" x="43.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="54" x="43.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="55" x="45.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="56" x="45.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="57" x="47.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="58" x="47.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="59" x="49.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="60" x="49.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="61" x="51.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="62" x="51.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="63" x="53.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="64" x="53.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="65" x="55.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="66" x="55.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="67" x="57.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="68" x="57.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="69" x="59.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="70" x="59.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="71" x="61.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="72" x="61.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="73" x="63.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="74" x="63.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="75" x="65.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="76" x="65.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="77" x="67.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="78" x="67.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-<pad name="79" x="69.05644375" y="-1.01064375" drill="0.8" diameter="1.143"/>
-<pad name="80" x="69.05644375" y="0.98935625" drill="0.8" diameter="1.143"/>
-</package>
 <package name="2X25/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-30.48" y1="-1.905" x2="-27.94" y2="-1.905" width="0.1524" layer="21"/>
@@ -2021,6 +1931,96 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <rectangle x1="69.469" y1="-4.699" x2="70.231" y2="-2.921" layer="51"/>
 <rectangle x1="69.469" y1="-5.461" x2="70.231" y2="-4.699" layer="21"/>
 </package>
+<package name="57102-F08-25">
+<description>&lt;b&gt;UNSH HEADER&lt;/b&gt; 2.0mm VERTICAL TMT&lt;p&gt;
+Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</description>
+<wire x1="-10.16" y1="2.54" x2="91.44" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="91.44" y1="2.54" x2="91.44" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="91.44" y1="-2.54" x2="-10.16" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="2.54" width="0.2032" layer="21"/>
+<pad name="1" x="-8.89" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="2" x="-8.89" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="3" x="-6.35" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="4" x="-6.35" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="5" x="-3.81" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="6" x="-3.81" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="7" x="-1.27" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="8" x="-1.27" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="9" x="1.27" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="10" x="1.27" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="11" x="3.81" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="12" x="3.81" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="13" x="6.35" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="14" x="6.35" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="15" x="8.89" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="16" x="8.89" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="17" x="11.43" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="18" x="11.43" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="19" x="13.97" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="20" x="13.97" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="21" x="16.51" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="22" x="16.51" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="23" x="19.05" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="24" x="19.05" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="25" x="21.59" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="26" x="21.59" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="27" x="24.13" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="28" x="24.13" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="29" x="26.67" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="30" x="26.67" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="31" x="29.21" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="32" x="29.21" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="33" x="31.75" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="34" x="31.75" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="35" x="34.29" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="36" x="34.29" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="37" x="36.83" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="38" x="36.83" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="39" x="39.37" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="40" x="39.37" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="41" x="41.91" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="42" x="41.91" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="43" x="44.45" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="44" x="44.45" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="45" x="46.99" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="46" x="46.99" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="47" x="49.53" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="48" x="49.53" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="49" x="52.07" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="50" x="52.07" y="1.27" drill="0.8" diameter="1.143"/>
+<text x="-8.89" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.89" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="51" x="54.61" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="52" x="54.61" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="53" x="57.15" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="54" x="57.15" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="55" x="59.69" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="56" x="59.69" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="57" x="62.23" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="58" x="62.23" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="59" x="64.77" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="60" x="64.77" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="61" x="67.31" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="62" x="67.31" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="63" x="69.85" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="64" x="69.85" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="65" x="72.39" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="66" x="72.39" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="67" x="74.93" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="68" x="74.93" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="69" x="77.47" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="70" x="77.47" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="71" x="80.01" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="72" x="80.01" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="73" x="82.55" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="74" x="82.55" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="75" x="85.09" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="76" x="85.09" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="77" x="87.63" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="78" x="87.63" y="1.27" drill="0.8" diameter="1.143"/>
+<pad name="79" x="90.17" y="-1.27" drill="0.8" diameter="1.143"/>
+<pad name="80" x="90.17" y="1.27" drill="0.8" diameter="1.143"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PINH2X25">
@@ -2159,7 +2159,7 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <connect gate="A" pin="D6" pad="13"/>
 <connect gate="A" pin="D7" pad="15"/>
 <connect gate="A" pin="GND@1" pad="17"/>
-<connect gate="A" pin="GND@2" pad="51"/>
+<connect gate="A" pin="GND@2" pad="2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 51 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80"/>
 <connect gate="A" pin="VCC" pad="53"/>
 </connects>
 <technologies>
@@ -2206,7 +2206,7 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <connect gate="A" pin="D6" pad="13"/>
 <connect gate="A" pin="D7" pad="15"/>
 <connect gate="A" pin="GND@1" pad="17"/>
-<connect gate="A" pin="GND@2" pad="51"/>
+<connect gate="A" pin="GND@2" pad="2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 51 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80"/>
 <connect gate="A" pin="VCC" pad="53"/>
 </connects>
 <technologies>

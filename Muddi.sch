@@ -754,7 +754,7 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <connect gate="A" pin="D6" pad="13"/>
 <connect gate="A" pin="D7" pad="15"/>
 <connect gate="A" pin="GND@1" pad="17"/>
-<connect gate="A" pin="GND@2" pad="51"/>
+<connect gate="A" pin="GND@2" pad="2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 51 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80"/>
 <connect gate="A" pin="VCC" pad="53"/>
 </connects>
 <technologies>
@@ -801,7 +801,7 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <connect gate="A" pin="D6" pad="13"/>
 <connect gate="A" pin="D7" pad="15"/>
 <connect gate="A" pin="GND@1" pad="17"/>
-<connect gate="A" pin="GND@2" pad="51"/>
+<connect gate="A" pin="GND@2" pad="2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 51 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80"/>
 <connect gate="A" pin="VCC" pad="53"/>
 </connects>
 <technologies>
