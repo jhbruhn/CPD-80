@@ -27,6 +27,3 @@ Video Card with TMS9918. Also PS/2 keyboard input (or something similar).
 * load Bootsector from CF card to 0x8000
 * jump to 0x8000
 * Bootsector loads FAT files, executes KERNEL.ULF or something like that. Autoexec.
-
-## Circuit Diagram
-![CPD](circuit.png)
