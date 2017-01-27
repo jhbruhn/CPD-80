@@ -14,15 +14,16 @@
 | 0x8000-0xFFFF | RAM  |
 
 ##IO
-| A7 | A6 | A5 |      Device         |
-| -- | -- | -- | ------------------- |
-| 0  | 0  | 0  | IDE Port (CF Card)  |
-| 0  | 0  | 1  | UART (16550)        |
+| A7 | A6 | A5 | Device             |
+|----|----|----|--------------------|
+| 0  | 0  | 0  | IDE Port (CF Card) |
+| 0  | 0  | 1  | UART (16550)       |
 
 ## Boot:
 * start at 0x0000.
 * load Bootsector from CF card to 0x8000
 * jump to 0x8000
 * Bootsector loads FAT files, executes KERNEL.ULF or something like that. Autoexec.
+
 ## Circuit Diagram
 ![CPD](circuit.png)
