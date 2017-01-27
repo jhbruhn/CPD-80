@@ -19,6 +19,9 @@
 | 0  | 0  | 0  | IDE Port (CF Card) |
 | 0  | 0  | 1  | UART (16550)       |
 
+##Future:
+Video Card with TMS9918. Also PS/2 keyboard input (or something similar).
+
 ## Boot:
 * start at 0x0000.
 * load Bootsector from CF card to 0x8000
