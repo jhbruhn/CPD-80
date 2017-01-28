@@ -5782,7 +5782,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="MPN" x="12.7" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="VCC" x="-10.16" y="30.48"/>
-<instance part="GND4" gate="1" x="-17.78" y="30.48"/>
+<instance part="GND4" gate="1" x="-15.24" y="30.48"/>
 <instance part="P+7" gate="VCC" x="-53.34" y="45.72"/>
 <instance part="GND8" gate="1" x="-53.34" y="30.48"/>
 <instance part="QG1" gate="G$1" x="-40.64" y="38.1"/>
@@ -6113,7 +6113,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="IC1" gate="1" pin="GND"/>
-<wire x1="-17.78" y1="33.02" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="33.02" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -6274,13 +6274,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="!BUSRQ"/>
-<wire x1="96.52" y1="22.86" x2="-10.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="22.86" x2="-8.636" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="1" pin="BUSRQ"/>
-<wire x1="-5.08" y1="45.72" x2="-10.16" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="45.72" x2="-10.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="45.72" x2="-8.636" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-8.636" y1="45.72" x2="-8.636" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="-10.16" y1="45.72" x2="-15.24" y2="45.72" width="0.1524" layer="91"/>
-<junction x="-10.16" y="45.72"/>
+<wire x1="-8.636" y1="45.72" x2="-15.24" y2="45.72" width="0.1524" layer="91"/>
+<junction x="-8.636" y="45.72"/>
 </segment>
 </net>
 <net name="N$3" class="0">
