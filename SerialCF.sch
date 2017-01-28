@@ -8447,7 +8447,6 @@ naming: grid - package width</description>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="V3" library="74ttl-din" deviceset="74*138" device="N"/>
-<part name="P+12" library="supply1" deviceset="VCC" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="T2" library="transistor" deviceset="BC547" device=""/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="0207/2V" value="100k"/>
@@ -8505,7 +8504,6 @@ A6 = 0</text>
 <instance part="V3" gate="1" x="111.76" y="137.16"/>
 <instance part="V3" gate="/+UB" x="17.78" y="96.52"/>
 <instance part="V3" gate="/-UB" x="17.78" y="86.36"/>
-<instance part="P+12" gate="VCC" x="86.36" y="132.08"/>
 <instance part="GND13" gate="1" x="86.36" y="121.92"/>
 <instance part="T2" gate="G$1" x="111.76" y="-15.24"/>
 <instance part="R5" gate="G$1" x="101.6" y="-15.24"/>
@@ -8592,11 +8590,6 @@ A6 = 0</text>
 <segment>
 <pinref part="JP1" gate="A" pin="A7"/>
 <wire x1="66.04" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="V3" gate="1" pin="C"/>
-<wire x1="96.52" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
-<label x="93.98" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -8798,11 +8791,6 @@ A6 = 0</text>
 <segment>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <pinref part="V3" gate="/+UB" pin="+UB"/>
-</segment>
-<segment>
-<pinref part="P+12" gate="VCC" pin="VCC"/>
-<pinref part="V3" gate="1" pin="G1"/>
-<wire x1="86.36" y1="129.54" x2="96.52" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -9035,11 +9023,6 @@ A6 = 0</text>
 <pinref part="JP1" gate="A" pin="A5"/>
 <wire x1="66.04" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="V3" gate="1" pin="A"/>
-<wire x1="96.52" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
-<label x="93.98" y="149.86" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="A6" class="0">
 <segment>
@@ -9049,16 +9032,16 @@ A6 = 0</text>
 <segment>
 <wire x1="266.7" y1="68.58" x2="266.7" y2="73.66" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="V3" gate="1" pin="B"/>
-<wire x1="96.52" y1="144.78" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
-<label x="93.98" y="144.78" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="A8" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="A8"/>
 <wire x1="66.04" y1="45.72" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="V3" gate="1" pin="A"/>
+<wire x1="76.2" y1="149.86" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
+<label x="88.9" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A9" class="0">
@@ -9066,17 +9049,32 @@ A6 = 0</text>
 <pinref part="JP1" gate="A" pin="A9"/>
 <wire x1="66.04" y1="43.18" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="V3" gate="1" pin="B"/>
+<wire x1="76.2" y1="144.78" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
+<label x="88.9" y="144.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A10" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="A10"/>
 <wire x1="66.04" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="V3" gate="1" pin="C"/>
+<wire x1="76.2" y1="139.7" x2="96.52" y2="139.7" width="0.1524" layer="91"/>
+<label x="88.9" y="139.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A11" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="A11"/>
 <wire x1="66.04" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="V3" gate="1" pin="G1"/>
+<wire x1="76.2" y1="129.54" x2="96.52" y2="129.54" width="0.1524" layer="91"/>
+<label x="88.9" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A12" class="0">

@@ -14,13 +14,21 @@
 | 0x8000-0xFFFF | RAM  |
 
 ##IO
-| A7 | A6 | A5 | Device             |
-|----|----|----|--------------------|
-| 0  | 0  | 0  | IDE Port (CF Card) |
-| 0  | 0  | 1  | UART (16550)       |
+| A11| A10| A9 | A8 | Device             |
+| ---|----|----|----|--------------------|
+| 0  | 0  | 0  | 0  | IDE Port (CF Card) |
+| 0  | 0  | 0  | 1  | UART (16550)       |
+To Address device 0:
+B = 0
+OUT (C), d
+
+To Address device 1:
+B = 1
+OUT (C), d
+etc...
 
 ##Future:
-Video Card with TMS9918. Also PS/2 keyboard input (or something similar).
+Video Card with TMS9918. Also PS/2 keyboard input (or something similar). Real time Clock?
 
 ## Boot:
 * start at 0x0000.
