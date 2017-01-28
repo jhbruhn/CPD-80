@@ -8596,6 +8596,7 @@ A6 = 0</text>
 <segment>
 <pinref part="V3" gate="1" pin="C"/>
 <wire x1="96.52" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<label x="93.98" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -8800,10 +8801,8 @@ A6 = 0</text>
 </segment>
 <segment>
 <pinref part="P+12" gate="VCC" pin="VCC"/>
-<wire x1="86.36" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="129.54" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="V3" gate="1" pin="!G2A"/>
-<wire x1="91.44" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="V3" gate="1" pin="G1"/>
+<wire x1="86.36" y1="129.54" x2="96.52" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -8896,15 +8895,13 @@ A6 = 0</text>
 <pinref part="V3" gate="/-UB" pin="-UB"/>
 </segment>
 <segment>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="86.36" y1="124.46" x2="86.36" y2="127" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="127" x2="96.52" y2="127" width="0.1524" layer="91"/>
-<pinref part="V3" gate="1" pin="G1"/>
-<wire x1="96.52" y1="127" x2="96.52" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="T2" gate="G$1" pin="E"/>
 <pinref part="GND14" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="V3" gate="1" pin="!G2A"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="96.52" y1="124.46" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!WR" class="0">
@@ -8999,6 +8996,7 @@ A6 = 0</text>
 <pinref part="V3" gate="1" pin="Y0"/>
 <wire x1="127" y1="152.4" x2="266.7" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="2.54" x2="266.7" y2="152.4" width="0.1524" layer="91"/>
+<label x="129.54" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -9040,6 +9038,7 @@ A6 = 0</text>
 <segment>
 <pinref part="V3" gate="1" pin="A"/>
 <wire x1="96.52" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
+<label x="93.98" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A6" class="0">
@@ -9053,6 +9052,7 @@ A6 = 0</text>
 <segment>
 <pinref part="V3" gate="1" pin="B"/>
 <wire x1="96.52" y1="144.78" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
+<label x="93.98" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A8" class="0">
@@ -9167,6 +9167,7 @@ A6 = 0</text>
 <wire x1="139.7" y1="27.94" x2="139.7" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="V3" gate="1" pin="Y1"/>
 <wire x1="139.7" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
+<label x="129.54" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
