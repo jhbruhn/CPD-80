@@ -122,7 +122,7 @@
 <wire x1="105" y1="0" x2="105" y2="85" width="0" layer="20"/>
 <wire x1="105" y1="85" x2="-1.27" y2="85" width="0" layer="20"/>
 <wire x1="-1.27" y1="85" x2="-1.27" y2="0" width="0" layer="20"/>
-<text x="30.48" y="12.7" size="1.778" layer="21" font="fixed">CPD-80 MUDDI v1</text>
+<text x="33.02" y="15.24" size="1.778" layer="21" font="fixed">CPD-80 MUDDI v1</text>
 <rectangle x1="38.1381" y1="1.8161" x2="38.4683" y2="1.8415" layer="21"/>
 <rectangle x1="37.9349" y1="1.8415" x2="38.5445" y2="1.8669" layer="21"/>
 <rectangle x1="37.7317" y1="1.8669" x2="38.6207" y2="1.8923" layer="21"/>
@@ -642,7 +642,7 @@
 <rectangle x1="38.6461" y1="6.3627" x2="38.7731" y2="6.3881" layer="21"/>
 <rectangle x1="38.6461" y1="6.3881" x2="38.7731" y2="6.4135" layer="21"/>
 <rectangle x1="38.6461" y1="6.4135" x2="38.7731" y2="6.4389" layer="21"/>
-<text x="48.26" y="11.43" size="1.778" layer="21" font="fixed" rot="R180">2017 jhbruhn</text>
+<text x="52.832" y="14.097" size="1.778" layer="21" font="fixed" rot="R180">2017 jhbruhn</text>
 <hole x="1.27" y="17.78" drill="2"/>
 <hole x="102.87" y="17.78" drill="2"/>
 </plain>
