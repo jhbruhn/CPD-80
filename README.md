@@ -18,13 +18,21 @@
 | ---|----|----|----|--------------------|
 | 0  | 0  | 0  | 0  | IDE Port (CF Card) |
 | 0  | 0  | 0  | 1  | UART (16550)       |
+| 0  | 0  | 1  | 0  | PS/2 Keyboard      |
+
 To Address device 0:
+
 B = 0
+
 OUT (C), d
 
+
 To Address device 1:
+
 B = 1
+
 OUT (C), d
+
 etc...
 
 ##Future:
