@@ -8611,7 +8611,7 @@ Based on the following sources:
 <instance part="C4" gate="G$1" x="297.18" y="63.5"/>
 <instance part="P+11" gate="VCC" x="297.18" y="68.58"/>
 <instance part="GND9" gate="1" x="297.18" y="55.88"/>
-<instance part="GND13" gate="1" x="86.36" y="132.08"/>
+<instance part="GND13" gate="1" x="86.36" y="134.62"/>
 <instance part="T2" gate="G$1" x="111.76" y="-15.24"/>
 <instance part="R5" gate="G$1" x="101.6" y="-15.24"/>
 <instance part="R6" gate="G$1" x="114.3" y="-5.08" rot="R90"/>
@@ -8992,12 +8992,13 @@ Based on the following sources:
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="96.52" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="IC2" gate="P" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="A" pin="G1"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="96.52" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!WR" class="0">
@@ -9156,6 +9157,7 @@ Based on the following sources:
 <segment>
 <pinref part="IC2" gate="A" pin="B"/>
 <wire x1="96.52" y1="147.32" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
+<label x="88.9" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A10" class="0">
@@ -9166,6 +9168,7 @@ Based on the following sources:
 <segment>
 <pinref part="IC2" gate="A" pin="C"/>
 <wire x1="96.52" y1="144.78" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
+<label x="88.9" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A11" class="0">
@@ -9174,8 +9177,11 @@ Based on the following sources:
 <wire x1="66.04" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="A" pin="G1"/>
-<wire x1="96.52" y1="137.16" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="G2A"/>
+<wire x1="96.52" y1="134.62" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="134.62" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
+<label x="83.82" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A12" class="0">
