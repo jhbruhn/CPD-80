@@ -19,6 +19,7 @@
 | 0  | 0  | 0  | 0  | IDE Port (CF Card) |
 | 0  | 0  | 0  | 1  | UART (16550)       |
 | 0  | 0  | 1  | 0  | PS/2 Keyboard      |
+| 0  | 0  | 1  | 1  | RTC-72421          |
 
 To Address device 0:
 
