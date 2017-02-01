@@ -3086,6 +3086,10 @@ or will meet your specific requirements.&lt;p&gt;
 <instance part="C6" gate="G$1" x="-60.96" y="281.94"/>
 <instance part="P+12" gate="VCC" x="-60.96" y="287.02"/>
 <instance part="GND12" gate="1" x="-60.96" y="274.32"/>
+<instance part="V2" gate="/+UB" x="-68.58" y="279.4"/>
+<instance part="V2" gate="/-UB" x="-55.88" y="281.94"/>
+<instance part="V1" gate="/+UB" x="45.72" y="233.68"/>
+<instance part="V1" gate="/-UB" x="55.88" y="236.22"/>
 </instances>
 <busses>
 <bus name="A[0..15]">
@@ -3664,10 +3668,18 @@ or will meet your specific requirements.&lt;p&gt;
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
+<pinref part="V1" gate="/+UB" pin="+UB"/>
+<wire x1="45.72" y1="236.22" x2="50.8" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="236.22" x2="50.8" y2="238.76" width="0.1524" layer="91"/>
+<junction x="50.8" y="238.76"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="P+12" gate="VCC" pin="VCC"/>
+<pinref part="V2" gate="/+UB" pin="+UB"/>
+<wire x1="-68.58" y1="281.94" x2="-60.96" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="281.94" x2="-60.96" y2="284.48" width="0.1524" layer="91"/>
+<junction x="-60.96" y="284.48"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3725,10 +3737,18 @@ or will meet your specific requirements.&lt;p&gt;
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="V1" gate="/-UB" pin="-UB"/>
+<wire x1="55.88" y1="233.68" x2="50.8" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="233.68" x2="50.8" y2="231.14" width="0.1524" layer="91"/>
+<junction x="50.8" y="231.14"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="V2" gate="/-UB" pin="-UB"/>
+<wire x1="-55.88" y1="279.4" x2="-60.96" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="279.4" x2="-60.96" y2="276.86" width="0.1524" layer="91"/>
+<junction x="-60.96" y="276.86"/>
 </segment>
 </net>
 <net name="!MREQ" class="0">
