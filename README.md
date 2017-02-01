@@ -14,12 +14,14 @@
 | 0x8000-0xFFFF | RAM  |
 
 ##IO
-| A11| A10| A9 | A8 | Device             |
-| ---|----|----|----|--------------------|
-| 0  | 0  | 0  | 0  | IDE Port (CF Card) |
-| 0  | 0  | 0  | 1  | UART (16550)       |
-| 0  | 0  | 1  | 0  | PS/2 Keyboard      |
-| 0  | 0  | 1  | 1  | RTC-72421          |
+| A11| A10| A9 | A8 | Device                                                  |
+| ---|----|----|----|---------------------------------------------------------|
+| 0  | 0  | 0  | 0  | IDE Port (CF Card)                                      |
+| 0  | 0  | 0  | 1  | UART (16550)                                            |
+| 0  | 0  | 1  | 0  | PS/2 Keyboard                                           |
+| 0  | 0  | 1  | 1  | RTC-72421                                               |
+| 0  | 1  | 0  | 0  | MemoryBank (write 0 for ROM and 2 for RAM in first 32k) |
+
 
 To Address device 0:
 
