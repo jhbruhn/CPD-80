@@ -7026,12 +7026,12 @@ design rules under a new name.</description>
 <element name="IC1" library="bt_memory" package="DIL28-ZIF" value="AT28C256ZIF" x="55.88" y="30.48" rot="R90"/>
 <element name="U$1" library="bfl" package="OSHW2" value="" x="66.04" y="6.35"/>
 <element name="C1" library="capacitor-wima" package="C5B2.5" value="0.1µF" x="8.89" y="10.16" smashed="yes">
-<attribute name="NAME" x="13.208" y="9.144" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="13.208" y="7.874" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="6.858" y="7.366" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C2" library="capacitor-wima" package="C5B2.5" value="0.1µF" x="43.18" y="19.05" smashed="yes" rot="R270">
 <attribute name="NAME" x="42.164" y="14.732" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="40.386" y="21.082" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="42.926" y="27.432" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C3" library="capacitor-wima" package="C5B2.5" value="0.1µF" x="95.25" y="10.16" smashed="yes">
 <attribute name="NAME" x="89.408" y="9.144" size="1.27" layer="25" ratio="10"/>
@@ -7043,10 +7043,16 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="15.24" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.24" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C4" library="capacitor-wima" package="C5B2.5" value="0.1µF" x="29.21" y="10.16" rot="R180"/>
+<element name="C4" library="capacitor-wima" package="C5B2.5" value="0.1µF" x="29.21" y="10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="31.242" y="8.636" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="24.892" y="10.414" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
 <element name="V1" library="74ttl-din" package="DIL14" value="7474N" x="77.47" y="44.45"/>
 <element name="V2" library="74ttl-din" package="DIL16" value="74138N" x="78.74" y="33.02"/>
-<element name="C5" library="capacitor-wima" package="C5B2.5" value="0.1µF" x="88.9" y="44.45" rot="R90"/>
+<element name="C5" library="capacitor-wima" package="C5B2.5" value="0.1µF" x="88.9" y="44.45" smashed="yes" rot="R90">
+<attribute name="NAME" x="89.916" y="38.608" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="91.694" y="42.418" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="C6" library="capacitor-wima" package="C5B2.5" value="0.1µF" x="92.71" y="33.02" rot="R90"/>
 </elements>
 <signals>
