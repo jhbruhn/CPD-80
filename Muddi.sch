@@ -15134,7 +15134,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="D0" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="D0"/>
 <pinref part="JP2" gate="A" pin="D0"/>
@@ -15267,7 +15267,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="187.96"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="D7" class="0">
 <segment>
 <pinref part="JP6" gate="A" pin="D7"/>
 <pinref part="JP5" gate="A" pin="D7"/>
@@ -15286,7 +15286,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="38.1" y="185.42"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="A0" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="A0"/>
 <pinref part="JP2" gate="A" pin="A0"/>
@@ -15571,7 +15571,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="147.32"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="A15" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="A15"/>
 <pinref part="JP1" gate="A" pin="A15"/>
@@ -15590,7 +15590,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="144.78"/>
 </segment>
 </net>
-<net name="N$37" class="0">
+<net name="!BUSACK" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="!BUSACK"/>
 <pinref part="JP1" gate="A" pin="!BUSACK"/>
@@ -15609,7 +15609,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="106.68"/>
 </segment>
 </net>
-<net name="N$38" class="0">
+<net name="!BUSREQ" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="!BUSRQ"/>
 <pinref part="JP2" gate="A" pin="!BUSRQ"/>
@@ -15628,7 +15628,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="109.22"/>
 </segment>
 </net>
-<net name="N$39" class="0">
+<net name="!M1" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="!M1"/>
 <pinref part="JP1" gate="A" pin="!M1"/>
@@ -15647,7 +15647,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="111.76"/>
 </segment>
 </net>
-<net name="N$40" class="0">
+<net name="!RESE" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="!RESET"/>
 <pinref part="JP2" gate="A" pin="!RESET"/>
@@ -15670,7 +15670,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="-2.54" y="114.3"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="!HALT" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="!HALT"/>
 <pinref part="JP1" gate="A" pin="!HALT"/>
@@ -15689,7 +15689,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="116.84"/>
 </segment>
 </net>
-<net name="N$42" class="0">
+<net name="!NMI" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="!NMI"/>
 <pinref part="JP2" gate="A" pin="!NMI"/>
@@ -15708,7 +15708,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="119.38"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="!INT" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="!INT"/>
 <pinref part="JP1" gate="A" pin="!INT"/>
@@ -15727,7 +15727,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="121.92"/>
 </segment>
 </net>
-<net name="N$44" class="0">
+<net name="CLK" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="CLK"/>
 <pinref part="JP2" gate="A" pin="CLK"/>
@@ -15746,7 +15746,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="124.46"/>
 </segment>
 </net>
-<net name="N$45" class="0">
+<net name="!MREQ" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="!MREQ"/>
 <pinref part="JP1" gate="A" pin="!MREQ"/>
@@ -15765,7 +15765,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="127"/>
 </segment>
 </net>
-<net name="N$46" class="0">
+<net name="!IOREQ" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="!IOREQ"/>
 <pinref part="JP2" gate="A" pin="!IOREQ"/>
@@ -15784,7 +15784,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="129.54"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="!WAIT" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="!WAIT"/>
 <pinref part="JP1" gate="A" pin="!WAIT"/>
@@ -15803,7 +15803,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="132.08"/>
 </segment>
 </net>
-<net name="N$48" class="0">
+<net name="!RD" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="!RD"/>
 <pinref part="JP2" gate="A" pin="!RD"/>
@@ -15822,7 +15822,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="134.62" y="134.62"/>
 </segment>
 </net>
-<net name="N$49" class="0">
+<net name="!WR" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="!WR"/>
 <pinref part="JP1" gate="A" pin="!WR"/>
