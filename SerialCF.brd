@@ -126,7 +126,7 @@
 <text x="40.005" y="40.005" size="1.524" layer="27" font="fixed" rot="R90">TX</text>
 <text x="32.385" y="38.735" size="1.524" layer="21" font="fixed" rot="R90">VCC</text>
 <text x="34.925" y="38.735" size="1.524" layer="21" font="fixed" rot="R90">GND</text>
-<text x="10.16" y="30.48" size="1.778" layer="21" font="fixed">CPD-80 Serial/CF v1</text>
+<text x="10.16" y="30.48" size="1.778" layer="21" font="fixed">CPD-80 Serial/CF v2</text>
 <rectangle x1="50.5333" y1="30.5435" x2="50.8635" y2="30.5689" layer="21"/>
 <rectangle x1="50.3301" y1="30.5689" x2="50.9397" y2="30.5943" layer="21"/>
 <rectangle x1="50.1269" y1="30.5943" x2="51.0159" y2="30.6197" layer="21"/>
