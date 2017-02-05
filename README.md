@@ -10,7 +10,7 @@
 ##Memory layout:
 | Address       | Type |
 | ------------- | ------------- |
-| 0x0000-0x7FFF | ROM  |
+| 0x0000-0x7FFF | ROM / RAM  |
 | 0x8000-0xFFFF | RAM  |
 
 ##IO
