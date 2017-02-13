@@ -3,7 +3,7 @@
 ##(Planned) Features
 * 6MHz Z80 Processor
 * UART Serial Communication
-* 32k RAM
+* 64k RAM
 * 32k ROM
 * CF Card Support (FAT16 or FAT12)
 
