@@ -38,6 +38,9 @@ OUT (C), d
 
 etc...
 
+sdcc: 
+__banked __ad(0x16c) int pedabaumert oder so
+
 ##Future:
 Video Card with TMS9918. Also PS/2 keyboard input (or something similar). Real time Clock?
 
