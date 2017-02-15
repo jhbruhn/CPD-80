@@ -43,7 +43,7 @@ Video Card with TMS9918. Also PS/2 keyboard input (or something similar). Real t
 
 ## Boot:
 * start at 0x0000.
-* load Bootsector from CF card to 0x8000
-* jump to 0x8000
+* load Bootsector from CF card to 0x8000, or into BANK RAM at 0x0000. 
+* jump to 0x8000 (0x0000)
 * Bootsector loads FAT files, executes KERNEL.ULF or something like that. Autoexec.
 
