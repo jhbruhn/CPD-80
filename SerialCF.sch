@@ -8742,7 +8742,6 @@ Based on the following sources:
 <part name="C4" library="capacitor-wima" deviceset="C" device="5/2.5" value="0.1µF"/>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="T2" library="transistor" deviceset="BC547" device=""/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="0207/2V" value="100k"/>
 <part name="R6" library="resistor" deviceset="R-EU_" device="0207/2V" value="3.3k"/>
@@ -8752,6 +8751,7 @@ Based on the following sources:
 <part name="QG1" library="crystal" deviceset="XO-" device="14" value="1.84MHz"/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="P+12" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8796,7 +8796,6 @@ Based on the following sources:
 <instance part="C4" gate="G$1" x="297.18" y="63.5"/>
 <instance part="P+11" gate="VCC" x="297.18" y="68.58"/>
 <instance part="GND9" gate="1" x="297.18" y="55.88"/>
-<instance part="GND13" gate="1" x="86.36" y="134.62"/>
 <instance part="T2" gate="G$1" x="111.76" y="-15.24"/>
 <instance part="R5" gate="G$1" x="101.6" y="-15.24"/>
 <instance part="R6" gate="G$1" x="114.3" y="-5.08" rot="R90"/>
@@ -8807,6 +8806,7 @@ Based on the following sources:
 <instance part="QG1" gate="G$1" x="114.3" y="43.18"/>
 <instance part="P+10" gate="VCC" x="101.6" y="50.8"/>
 <instance part="GND8" gate="1" x="101.6" y="35.56"/>
+<instance part="P+12" gate="VCC" x="86.36" y="139.7"/>
 </instances>
 <busses>
 <bus name="A[0..15]">
@@ -9096,6 +9096,11 @@ Based on the following sources:
 <pinref part="SV1" gate="1" pin="1"/>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="A" pin="G1"/>
+<wire x1="96.52" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="P+12" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -9180,11 +9185,6 @@ Based on the following sources:
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="IC2" gate="P" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="A" pin="G1"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="96.52" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="QG1" gate="G$1" pin="GND"/>
