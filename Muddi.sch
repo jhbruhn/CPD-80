@@ -748,46 +748,46 @@ Source: https://portal.fciconnect.com/res/en/pdffiles/doc_search/57102.pdf</desc
 <devices>
 <device name="_57102-F08-25" package="57102-F08-25">
 <connects>
-<connect gate="A" pin="!BUSACK" pad="67"/>
-<connect gate="A" pin="!BUSRQ" pad="69"/>
-<connect gate="A" pin="!HALT" pad="71"/>
-<connect gate="A" pin="!INT" pad="73"/>
-<connect gate="A" pin="!IOREQ" pad="59"/>
-<connect gate="A" pin="!M1" pad="75"/>
-<connect gate="A" pin="!MREQ" pad="61"/>
-<connect gate="A" pin="!NMI" pad="77"/>
-<connect gate="A" pin="!RD" pad="55"/>
-<connect gate="A" pin="!RESET" pad="79"/>
-<connect gate="A" pin="!WAIT" pad="65"/>
-<connect gate="A" pin="!WR" pad="57"/>
-<connect gate="A" pin="A0" pad="19"/>
-<connect gate="A" pin="A1" pad="21"/>
-<connect gate="A" pin="A10" pad="39"/>
-<connect gate="A" pin="A11" pad="41"/>
-<connect gate="A" pin="A12" pad="43"/>
-<connect gate="A" pin="A13" pad="45"/>
-<connect gate="A" pin="A14" pad="47"/>
-<connect gate="A" pin="A15" pad="49"/>
-<connect gate="A" pin="A2" pad="23"/>
-<connect gate="A" pin="A3" pad="25"/>
-<connect gate="A" pin="A4" pad="27"/>
-<connect gate="A" pin="A5" pad="29"/>
-<connect gate="A" pin="A6" pad="31"/>
-<connect gate="A" pin="A7" pad="33"/>
-<connect gate="A" pin="A8" pad="35"/>
-<connect gate="A" pin="A9" pad="37"/>
-<connect gate="A" pin="CLK" pad="63"/>
-<connect gate="A" pin="D0" pad="1"/>
-<connect gate="A" pin="D1" pad="3"/>
-<connect gate="A" pin="D2" pad="5"/>
-<connect gate="A" pin="D3" pad="7"/>
-<connect gate="A" pin="D4" pad="9"/>
-<connect gate="A" pin="D5" pad="11"/>
-<connect gate="A" pin="D6" pad="13"/>
-<connect gate="A" pin="D7" pad="15"/>
-<connect gate="A" pin="GND@1" pad="17"/>
+<connect gate="A" pin="!BUSACK" pad="13"/>
+<connect gate="A" pin="!BUSRQ" pad="11"/>
+<connect gate="A" pin="!HALT" pad="9"/>
+<connect gate="A" pin="!INT" pad="7"/>
+<connect gate="A" pin="!IOREQ" pad="21"/>
+<connect gate="A" pin="!M1" pad="5"/>
+<connect gate="A" pin="!MREQ" pad="19"/>
+<connect gate="A" pin="!NMI" pad="3"/>
+<connect gate="A" pin="!RD" pad="25"/>
+<connect gate="A" pin="!RESET" pad="1"/>
+<connect gate="A" pin="!WAIT" pad="15"/>
+<connect gate="A" pin="!WR" pad="23"/>
+<connect gate="A" pin="A0" pad="63"/>
+<connect gate="A" pin="A1" pad="61"/>
+<connect gate="A" pin="A10" pad="41"/>
+<connect gate="A" pin="A11" pad="39"/>
+<connect gate="A" pin="A12" pad="37"/>
+<connect gate="A" pin="A13" pad="35"/>
+<connect gate="A" pin="A14" pad="33"/>
+<connect gate="A" pin="A15" pad="31"/>
+<connect gate="A" pin="A2" pad="59"/>
+<connect gate="A" pin="A3" pad="57"/>
+<connect gate="A" pin="A4" pad="55"/>
+<connect gate="A" pin="A5" pad="53"/>
+<connect gate="A" pin="A6" pad="49"/>
+<connect gate="A" pin="A7" pad="47"/>
+<connect gate="A" pin="A8" pad="45"/>
+<connect gate="A" pin="A9" pad="43"/>
+<connect gate="A" pin="CLK" pad="17"/>
+<connect gate="A" pin="D0" pad="79"/>
+<connect gate="A" pin="D1" pad="77"/>
+<connect gate="A" pin="D2" pad="75"/>
+<connect gate="A" pin="D3" pad="73"/>
+<connect gate="A" pin="D4" pad="71"/>
+<connect gate="A" pin="D5" pad="69"/>
+<connect gate="A" pin="D6" pad="67"/>
+<connect gate="A" pin="D7" pad="65"/>
+<connect gate="A" pin="GND@1" pad="29"/>
 <connect gate="A" pin="GND@2" pad="2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 51 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80"/>
-<connect gate="A" pin="VCC" pad="53"/>
+<connect gate="A" pin="VCC" pad="27"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15107,7 +15107,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="JP4" gate="A" x="104.14" y="172.72"/>
 <instance part="JP5" gate="A" x="137.16" y="172.72"/>
 <instance part="JP6" gate="A" x="175.26" y="172.72"/>
-<instance part="J1" gate="G$1" x="-43.18" y="254"/>
+<instance part="J1" gate="G$1" x="-33.02" y="254" rot="R180"/>
 <instance part="GND" gate="1" x="12.7" y="241.3"/>
 <instance part="VCC" gate="VCC" x="12.7" y="266.7"/>
 <instance part="D1" gate="1" x="-35.56" y="266.7" rot="R90">
@@ -15124,7 +15124,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="IC1" gate="A1" x="-25.4" y="271.78"/>
 <instance part="P+1" gate="VCC" x="-12.7" y="279.4"/>
 <instance part="GND1" gate="1" x="-25.4" y="261.62"/>
-<instance part="GND3" gate="1" x="-30.48" y="241.3"/>
+<instance part="GND3" gate="1" x="-40.64" y="241.3"/>
 <instance part="MAX811" gate="G$1" x="-38.1" y="134.62"/>
 <instance part="GND4" gate="1" x="-43.18" y="121.92"/>
 <instance part="P+3" gate="VCC" x="-40.64" y="149.86"/>
@@ -15950,15 +15950,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="-25.4" y="264.16"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="-35.56" y1="251.46" x2="-30.48" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="251.46" x2="-30.48" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="-45.72" y1="261.62" x2="-53.34" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="261.62" x2="-53.34" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="243.84" x2="-30.48" y2="243.84" width="0.1524" layer="91"/>
-<junction x="-30.48" y="243.84"/>
+<wire x1="-53.34" y1="243.84" x2="-40.64" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="251.46" x2="-40.64" y2="243.84" width="0.1524" layer="91"/>
+<junction x="-40.64" y="243.84"/>
 </segment>
 <segment>
 <pinref part="MAX811" gate="G$1" pin="GND"/>
@@ -15999,11 +15998,13 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="-50.8" y="114.3"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="N$1" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="-40.64" y1="256.54" x2="-40.64" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="261.62" x2="-35.56" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="D1" gate="1" pin="A"/>
-<wire x1="-35.56" y1="256.54" x2="-35.56" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="261.62" x2="-35.56" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
