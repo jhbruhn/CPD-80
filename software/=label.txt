@@ -1,0 +1,14 @@
+INITUART_FAIL:	equ $0021
+INIT_UART:	equ $0000
+MAIN:	equ $003e
+TX_BUSYLP:	equ $0042
+UART0:	equ $0000
+UART1:	equ $0001
+UART2:	equ $0002
+UART3:	equ $0003
+UART4:	equ $0004
+UART5:	equ $0005
+UART6:	equ $0006
+UART7:	equ $0007
+UARTP:	equ $0001
+UART_OK:	equ $0024

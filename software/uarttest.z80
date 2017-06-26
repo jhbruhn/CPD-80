@@ -1,0 +1,94 @@
+; UART 16C550 SERIAL
+UARTP:       EQU    $01            ; B: UART PORT
+UART0:       EQU    $00            ; DATA IN/OUT
+UART1:       EQU    $01            ; CHECK RX
+UART2:       EQU    $02            ; INTERRUPTS
+UART3:       EQU    $03            ; LINE CONTROL
+UART4:       EQU    $04            ; MODEM CONTROL
+UART5:       EQU    $05            ; LINE STATUS
+UART6:       EQU    $06            ; MODEM STATUS
+UART7:       EQU    $07            ; SCRATCH REG.
+
+  ORG $0000
+
+
+
+;******************************************************************
+;        INIT_UART                                                ;
+;        Function....: Init serial port  8250, 16C450, OR 16C550  ;
+;                      9600 Baud, 8 bit, 1 stopbit, 0 parity      ;
+;        Output......:                                            ;
+;        call........: PAUSE                      test 2 Feb 2007 ;
+;******************************************************************
+INIT_UART:   LD     A,$AA
+             LD     B, UARTP
+             LD     C, UART7
+             OUT    (C), A
+             IN     A, (C)
+             CP     $AA           ; TEST IF YOU COULD STORE AA
+             JP     NZ,INITUART_FAIL  ; IF NOT, THE UART CAN'T BE FOUND
+             LD     A,$55
+             LD     B, UARTP
+             LD     C, UART7
+             OUT    (C),A     ; 
+             IN     A,(C)
+             CP     $55           ; 
+             JP     NZ,INITUART_FAIL
+             LD     A,$01
+             JP     UART_OK
+
+INITUART_FAIL:                      ; Handle if initialize UART fails
+             LD     A,1
+             HALT
+
+
+UART_OK:
+       LD     A,$80
+             LD     B, UARTP
+             LD     C, UART3
+             OUT    (C),A     ; SET DLAB FLAG
+             LD     A,12          ; = 1,843,200 / ( 16 x 9600 )
+             LD     B, UARTP
+             LD     C, UART0
+             OUT    (C),A     ; Set BAUD rate til 9600
+             LD     A,$00
+             LD     B, UARTP
+             LD     C, UART1
+             OUT    (C),A     ; Set BAUD rate til 9600
+             LD     A,$03
+             LD     B, UARTP
+             LD     C, UART3
+             OUT    (C),A     ; Set 8 bit data, 1 stopbit
+  
+ 
+MAIN:
+  ;LD  A,$00 ; SELECT FIRST SERIAL PORT
+  ;LD  D,$30 ; LOAD "0" CHARACTER TO PRINT IN REGISTER B
+
+GET_CHAR:
+  LD B, UARTP
+  LD C, UART5
+  IN A, (C)
+  BIT 0, A
+  JP Z, GET_CHAR
+  LD B, UARTP
+  LD C, UART5
+  IN A, (C)
+  LD D, A
+TX_BUSYLP:   LD     B, UARTP
+             LD     C, UART5
+             IN     A,(C)     ; READ Line Status Register
+             BIT    5,A           ; TEST IF UART IS READY TO SEND
+             JP     Z,TX_BUSYLP   ; IF NOT REPEAT
+
+
+             LD     A,D
+             LD     B, UARTP
+             LD     C, UART0
+             OUT    (C),A      ; THEN WRITE THE CHAR TO UART
+
+  
+  JP  MAIN  ; REPEAT FOREVER
+
+
+  END
