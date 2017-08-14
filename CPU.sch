@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6140,6 +6140,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-38.1" y1="60.96" x2="-30.48" y2="60.96" width="0.1524" layer="91"/>
 <label x="-38.1" y="60.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="1" pin="RESET"/>
+<wire x1="-5.08" y1="50.8" x2="-10.16" y2="50.8" width="0.1524" layer="91"/>
+<label x="-12.7" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="!WAIT" class="0">
 <segment>
@@ -6151,6 +6156,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="-38.1" y1="91.44" x2="-33.02" y2="91.44" width="0.1524" layer="91"/>
 <label x="-38.1" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="1" pin="WAIT"/>
+<wire x1="-5.08" y1="63.5" x2="-10.16" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!MREQ" class="0">
@@ -6258,6 +6267,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-38.1" y1="76.2" x2="-33.02" y2="76.2" width="0.1524" layer="91"/>
 <label x="-38.1" y="76.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="1" pin="NMI"/>
+<wire x1="-5.08" y1="55.88" x2="-10.16" y2="55.88" width="0.1524" layer="91"/>
+<label x="-12.7" y="55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="!INT" class="0">
 <segment>
@@ -6269,6 +6283,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-38.1" y1="83.82" x2="-33.02" y2="83.82" width="0.1524" layer="91"/>
 <label x="-38.1" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="1" pin="INT"/>
+<wire x1="-5.08" y1="58.42" x2="-10.16" y2="58.42" width="0.1524" layer="91"/>
+<label x="-12.7" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!BUSAK" class="0">
@@ -6295,6 +6314,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="JP1" gate="A" pin="CLK"/>
 <wire x1="96.52" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <label x="104.14" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!RFSH" class="0">
+<segment>
+<pinref part="IC1" gate="1" pin="RFSH"/>
+<wire x1="-5.08" y1="73.66" x2="-10.16" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

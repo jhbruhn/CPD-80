@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7978,17 +7978,17 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="IC1" library="zilog" package="DIL40" value="Z80CPU" x="66.04" y="21.59">
-<attribute name="OC_FARNELL" value="unknown" x="66.04" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="66.04" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="66.04" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="66.04" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="66.04" y="21.59" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP1" library="jean" package="2X25/90" value="" x="72.39" y="0" rot="R180"/>
 <element name="QG1" library="crystal" package="DIL14S" value="6 MHz" x="20.955" y="23.495" smashed="yes">
+<attribute name="MF" value="" x="20.955" y="23.495" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="20.955" y="23.495" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.115" y="29.0576" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="20.955" y="23.495" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="20.955" y="23.495" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="20.955" y="23.495" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="20.955" y="23.495" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.115" y="29.0576" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="13.335" y="22.6822" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="U$1" library="bfl" package="OSHW2" value="" x="94.615" y="17.145"/>
@@ -8517,6 +8517,8 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <wire x1="0.69" y1="11.43" x2="2.54" y2="11.43" width="0.254" layer="1"/>
 <wire x1="0.6858" y1="11.43" x2="0.69" y2="11.43" width="0.254" layer="1"/>
+<contactref element="IC1" pad="26"/>
+<wire x1="77.28" y1="29.21" x2="77.47" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!WAIT">
 <contactref element="JP1" pad="65"/>
@@ -8524,6 +8526,8 @@ design rules under a new name.</description>
 <wire x1="20.3454" y1="6.4008" x2="20.3454" y2="8.6868" width="0.254" layer="1"/>
 <wire x1="20.3454" y1="8.6868" x2="20.32" y2="8.89" width="0.254" layer="1"/>
 <wire x1="20.3454" y1="6.4008" x2="20.32" y2="6.35" width="0.254" layer="1"/>
+<contactref element="IC1" pad="24"/>
+<wire x1="20.32" y1="8.89" x2="82.55" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!MREQ">
 <contactref element="JP1" pad="61"/>
@@ -8759,6 +8763,8 @@ design rules under a new name.</description>
 <contactref element="R3" pad="2"/>
 <wire x1="5.0292" y1="8.6868" x2="5.08" y2="8.89" width="0.254" layer="1"/>
 <wire x1="5.0292" y1="8.6868" x2="5.06" y2="8.6868" width="0.254" layer="1"/>
+<contactref element="IC1" pad="17"/>
+<wire x1="5.08" y1="8.89" x2="82.55" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!INT">
 <contactref element="JP1" pad="73"/>
@@ -8766,6 +8772,8 @@ design rules under a new name.</description>
 <wire x1="10.287" y1="6.4008" x2="10.287" y2="8.6868" width="0.254" layer="1"/>
 <wire x1="10.287" y1="8.6868" x2="10.16" y2="8.89" width="0.254" layer="1"/>
 <wire x1="10.287" y1="6.4008" x2="10.16" y2="6.35" width="0.254" layer="1"/>
+<contactref element="IC1" pad="16"/>
+<wire x1="10.287" y1="8.6868" x2="80.01" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!BUSAK">
 <contactref element="IC1" pad="23"/>
@@ -8815,6 +8823,9 @@ design rules under a new name.</description>
 <wire x1="28.8036" y1="27.2034" x2="28.75" y2="27.14" width="0.254" layer="16"/>
 <wire x1="54.6354" y1="14.1732" x2="54.51" y2="14.1732" width="0.254" layer="16"/>
 <wire x1="54.6354" y1="14.1732" x2="54.61" y2="13.97" width="0.254" layer="16"/>
+</signal>
+<signal name="!RFSH">
+<contactref element="IC1" pad="28"/>
 </signal>
 </signals>
 </board>
