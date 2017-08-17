@@ -3021,7 +3021,6 @@ or will meet your specific requirements.&lt;p&gt;
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
 <part name="V1" library="74ttl-din" deviceset="74*74" device="N"/>
 <part name="V2" library="74ttl-din" deviceset="74*138" device="N"/>
-<part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="C5" library="capacitor-wima" deviceset="C" device="5/2.5" value="0.1µF"/>
@@ -3030,6 +3029,7 @@ or will meet your specific requirements.&lt;p&gt;
 <part name="C6" library="capacitor-wima" deviceset="C" device="5/2.5" value="0.1µF"/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="P+13" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3076,7 +3076,6 @@ or will meet your specific requirements.&lt;p&gt;
 <instance part="V1" gate="/1" x="5.08" y="251.46"/>
 <instance part="V1" gate="/2" x="35.56" y="251.46"/>
 <instance part="V2" gate="1" x="-43.18" y="251.46"/>
-<instance part="GND10" gate="1" x="-58.42" y="241.3"/>
 <instance part="IC3" gate="B" x="81.28" y="251.46"/>
 <instance part="P+9" gate="VCC" x="25.4" y="261.62"/>
 <instance part="P+10" gate="VCC" x="-5.08" y="261.62"/>
@@ -3090,6 +3089,7 @@ or will meet your specific requirements.&lt;p&gt;
 <instance part="V2" gate="/-UB" x="-55.88" y="281.94"/>
 <instance part="V1" gate="/+UB" x="45.72" y="233.68"/>
 <instance part="V1" gate="/-UB" x="55.88" y="236.22"/>
+<instance part="P+13" gate="VCC" x="-58.42" y="246.38"/>
 </instances>
 <busses>
 <bus name="A[0..15]">
@@ -3681,6 +3681,10 @@ or will meet your specific requirements.&lt;p&gt;
 <wire x1="-60.96" y1="281.94" x2="-60.96" y2="284.48" width="0.1524" layer="91"/>
 <junction x="-60.96" y="284.48"/>
 </segment>
+<segment>
+<pinref part="V2" gate="1" pin="G1"/>
+<pinref part="P+13" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -3729,10 +3733,6 @@ or will meet your specific requirements.&lt;p&gt;
 <segment>
 <pinref part="IC4" gate="G$1" pin="GND"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="V2" gate="1" pin="G1"/>
-<pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>

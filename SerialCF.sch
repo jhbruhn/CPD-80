@@ -8752,6 +8752,8 @@ Based on the following sources:
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="0207/2V" value="3.3k"/>
+<part name="P+14" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8807,6 +8809,8 @@ Based on the following sources:
 <instance part="P+10" gate="VCC" x="101.6" y="50.8"/>
 <instance part="GND8" gate="1" x="101.6" y="35.56"/>
 <instance part="P+12" gate="VCC" x="86.36" y="139.7"/>
+<instance part="R7" gate="G$1" x="91.44" y="-5.08" rot="R90"/>
+<instance part="P+14" gate="VCC" x="91.44" y="2.54"/>
 </instances>
 <busses>
 <bus name="A[0..15]">
@@ -9101,6 +9105,10 @@ Based on the following sources:
 <wire x1="96.52" y1="137.16" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="P+12" gate="VCC" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="P+14" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -9255,9 +9263,12 @@ Based on the following sources:
 <wire x1="66.04" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-2.54" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-10.16" x2="73.66" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-10.16" x2="96.52" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-10.16" x2="91.44" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="73.66" y="-10.16"/>
+<wire x1="91.44" y1="-10.16" x2="96.52" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-10.16" x2="96.52" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<junction x="91.44" y="-10.16"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -9288,6 +9299,7 @@ Based on the following sources:
 <wire x1="124.46" y1="149.86" x2="264.16" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="2.54" x2="264.16" y2="149.86" width="0.1524" layer="91"/>
 <label x="129.54" y="152.4" size="1.778" layer="95"/>
+<pinref part="IC2" gate="A" pin="Y0"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -9475,6 +9487,7 @@ Based on the following sources:
 <wire x1="93.98" y1="132.08" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="!IOREQ"/>
 <wire x1="66.04" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="G2B"/>
 </segment>
 </net>
 <net name="N$6" class="0">
